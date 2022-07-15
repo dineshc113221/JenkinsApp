@@ -7,8 +7,9 @@ namespace JenkinsApp
         static void Main(string[] args)
         {
             MyMaths myMaths = new MyMaths();
-            myMaths.Add(5, 6);
-            myMaths.Mul(5, 6);
+        
+            Console.WriteLine("Addition is "+ myMaths.Add(5, 6));
+            Console.WriteLine("Mul is "+ myMaths.Mul(5, 6));
 
             Console.ReadLine();
 
